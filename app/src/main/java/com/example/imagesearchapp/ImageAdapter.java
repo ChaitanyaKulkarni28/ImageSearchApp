@@ -18,9 +18,7 @@ public class ImageAdapter extends BaseAdapter {
     static int totalImages;
     static String arr[];
     static ArrayList<String> titles;
-    //int totalImages = 2;
-    //String arr[] = {"https://i.imgur.com/MqFJacv.jpg","https://i.imgur.com/Ni5IhYU.png"};
-
+    
     public ImageAdapter(Context c, ArrayList<String> arrayList, ArrayList<String> titleList){
         context = c;
         totalImages = arrayList.size();
@@ -43,7 +41,6 @@ public class ImageAdapter extends BaseAdapter {
 
     @Override
     public String getItem(int i) {
-      //  return MainActivity.arrayList.get(i);
         return arr[i];
     }
 
