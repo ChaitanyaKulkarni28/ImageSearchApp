@@ -19,3 +19,11 @@ FullImageActivity.java
 1. It gets position of image in gridview from ImageAdapter and retrieves corresponding link and title from arraylist.
 2. It has two other features of adding new comments on that image and viewing previously added.
 3. It makes function call to DBHandler to add and retrieve comments from SQLite database. 
+
+DBHandler.java
+1. Here I have implemented database functions like to create database, add comments and view comments related to particular image.
+2. We can use libraries like Sugar ORM to simplify the interaction with SQLite database in Android. It provides simple readily available APIs for db operations so that we don't need to write SQL queries.
+
+ImageAdapter.java
+Here I am creating customized adapter to add images in gridview
+
