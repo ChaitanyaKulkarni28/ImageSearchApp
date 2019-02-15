@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Image Finder</string>
+    <string name="btn_text">Search</string>
+    <string name="edit_text_hint">Enter to search images</string>
+    <string name="edit_text_comment">Write a comment</string>
+    <string name="comment_btn">Add comment</string>
+</resources>
